@@ -1,3 +1,5 @@
+点击SSH下三角 在浏览器窗口中打开
+
 1：  sudo -i
 
 2： wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh && chmod +x shadowsocksR.sh
@@ -15,5 +17,9 @@
 谷歌云防火墙规则添加 （位置在谷歌云 VPC网络-防火墙）点击添加新规则，然后按照下面这个设置好入站，设置好入站后再设置一个出站，
 与入站除了名字不同其他设置都一样。这样 SSR 设置任何端口都可以使用。并且后续不需要再来防火墙规则做设置了。
 
-入站
+入站为例：
+取名 ruzhan
+网络中所有实例
+IP地址范围
 0.0.0.0/0
+协议和端口全部允许
